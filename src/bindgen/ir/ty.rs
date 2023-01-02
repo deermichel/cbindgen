@@ -488,6 +488,9 @@ impl Type {
                     Type::Path(generic_path)
                 }
             }
+            syn::Type::TraitObject(_) => {
+                Type::Primitive(PrimitiveType::Void)
+            }
             syn::Type::Array(syn::TypeArray {
                 ref elem, ref len, ..
             }) => {
