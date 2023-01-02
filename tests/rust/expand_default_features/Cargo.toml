@@ -2,6 +2,7 @@
 name = "expand"
 version = "0.1.0"
 authors = ["cbindgen"]
+publish = false
 
 [features]
 default = ["extra_headers"]

@@ -3,6 +3,7 @@ name = "expand-dep"
 version = "0.1.0"
 authors = ["cbindgen"]
 edition = "2018"
+publish = false
 
 [dependencies]
 dep = { path = "dep" }
